@@ -9,17 +9,17 @@ function updateDisplay(){
     chrome.storage.sync.get('content', function(data) {
         let contentHtml = '';
         for (let item of data.content) {
-            contentHtml += '<div class="refcontent col-md-12"> <p>'+item.text+'</p> </div>';
+            contentHtml += '<div class="refcontent col-md-12" data-attr-url="'+item.url+'"> <p>'+item.text+'</p> </div>';
         }
         container.innerHTML=contentHtml;
     })
 }
+
 
 window.onload = function(){
     updateDisplay();
 }
 
 chrome.storage.onChanged.addListener(function(changes, namespace) {
-    console.log('beat');
     updateDisplay();
 });

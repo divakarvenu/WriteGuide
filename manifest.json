@@ -12,10 +12,10 @@
     "default_title": "WriteGuide",
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/get_started16.png",
-      "32": "images/get_started32.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
+      "16": "images/write-guide-16.png",
+      "32": "images/write-guide-32.png",
+      "48": "images/write-guide-48.png",
+      "128": "images/write-guide-100.png"
     }
   },
   "content_scripts": [
@@ -26,10 +26,10 @@
   ],
   
   "icons": {
-    "16": "images/get_started16.png",
-    "32": "images/get_started32.png",
-    "48": "images/get_started48.png",
-    "128": "images/get_started128.png"
+    "16": "images/write-guide-16.png",
+    "32": "images/write-guide-32.png",
+    "48": "images/write-guide-48.png",
+    "128": "images/write-guide-100.png"
   },
   "manifest_version": 2
 }
