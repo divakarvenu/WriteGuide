@@ -20,6 +20,7 @@ function logKey(e) {
       'text':[]
   }
   if(e.code === 'KeyC'){
+      console.log('sdfsdff');
     chrome.storage.sync.get('postGuide', function(data) {
         if(data.postGuide){
             var url = window.location.href;
